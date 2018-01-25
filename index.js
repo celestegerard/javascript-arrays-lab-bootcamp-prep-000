@@ -19,9 +19,7 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  appends a kitten to the kittens array
-  returns a new array;
-  this is a non-destructive method
+  kittens = [...kittens, "Bob"];
 }
 
 function prependKitten(name) {
