@@ -22,6 +22,7 @@ function appendKitten(name) {
   kittens = [...kittens, "Bob"];
 }
 
+/*
 function prependKitten(name) {
   prepends a kitten to the kittens array 
   returns a new array;
@@ -39,3 +40,4 @@ function removeFirstKitten() {
   returns a new array;
   this is a non-destructive method;
 }
+*/
