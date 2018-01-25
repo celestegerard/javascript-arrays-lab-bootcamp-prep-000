@@ -21,14 +21,11 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  kittens = ["Arnold", ...kittens];
-  return kittens;
+  return kittens = ["Arnold", ...kittens];
 }
 
 function removeLastKitten() {
-  removes the last kitten in the kittens array
-  returns a new array;
-  this is a non-destructive method;
+   kittens = kittens.slice(0,1);
 }
 
 function removeFirstKitten() {
