@@ -21,11 +21,9 @@ function appendKitten(name) {
   return kittens;
 }
 
-/*
 function prependKitten(name) {
-  prepends a kitten to the kittens array 
-  returns a new array;
-  this is a non-destructive method;
+  kittens = ["Arnold", ...kittens];
+  return kittens;
 }
 
 function removeLastKitten() {
