@@ -29,8 +29,6 @@ function removeLastKitten() {
 }
 
 function removeFirstKitten() {
-  removes the first kitten from the kittens array
-  returns a new array;
-  this is a non-destructive method;
+  kittens = kittens.slice(1,2);
 }
 */
